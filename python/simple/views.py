@@ -1,12 +1,6 @@
 # example/simple/views.py
 
 from django.http import HttpResponse
-from authomatic import Authomatic
-from authomatic.adapters import DjangoAdapter
-
-from config import CONFIG
-
-authomatic = Authomatic(CONFIG, 'a super secret random string')
 
 def home(request):
     # Create links and OpenID form to the Login handler.
