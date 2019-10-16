@@ -1,6 +1,6 @@
 # example/example/urls.py
 
-from django.conf.urls import patterns, include, url
+from django.conf.urls import patterns, include, url #patterns,include,url importing from django.conf.urls
 
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
